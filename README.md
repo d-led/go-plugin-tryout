@@ -14,7 +14,7 @@ demo.bat
 on *X:
 
 ```shell
-./demo.sh`
+./demo.sh
 ```
 
 ## Structure
