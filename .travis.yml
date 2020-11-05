@@ -1,7 +1,8 @@
 language: go
 go:
     - "1.15"
-
+allow_failures:
+    - os: windows
 matrix:
     include:
     -   os: linux
