@@ -9,3 +9,6 @@ import (
 func InjectRand(i *interfaces.Randomizer) {
 	randomizer.InjectRand(i)
 }
+
+// main for the main package (not needed for the plugin itself)
+func main() {}
