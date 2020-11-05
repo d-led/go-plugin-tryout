@@ -1,7 +1,15 @@
+language: go
+go:
+    - "1.15"
+
 matrix:
     include:
-    -   language: go
-        go:
-            - "1.15"
+    -   os: linux
         script:
             - ./demo.sh
+    -   os: osx
+        script:
+            - ./demo.sh
+    -   os: windows
+        script:
+            - demo.bat
