@@ -1,5 +1,7 @@
 # go-plugin-tryout
 
+[![Build Status](https://travis-ci.org/d-led/go-plugin-tryout.svg?branch=main)](https://travis-ci.org/d-led/go-plugin-tryout)
+
 trying out plugin mechanisms:
 
 - https://github.com/hashicorp/go-plugin
