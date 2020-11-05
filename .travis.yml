@@ -12,4 +12,4 @@ matrix:
             - ./demo.sh
     -   os: windows
         script:
-            - demo.bat
+            - cmd.exe /C 'demo.bat'
